@@ -36,10 +36,17 @@
             </li>
           </ul>
         </div>
-        <li class = " @if ($activePage == 'pengajuan_cuti') active @endif">
+
+        <li class = "@if ($activePage == 'pengajuan_cuti') active @endif">
           <a href="{{ route('page.index','pengajuan_cuti') }}">
-            <i class="now-ui-icons files_single-copy-04"></i>
+            <i class="now-ui-icons tech_controller-modern"></i>
             <p>{{ __('Pengajuan Cuti') }}</p>
+          </a>
+        </li>
+        <li class = " @if ($activePage == 'konfirmasi_cuti') active @endif">
+          <a href="{{ route('page.index','konfirmasi_cuti') }}">
+            <i class="now-ui-icons files_single-copy-04"></i>
+            <p>{{ __('Konfirmasi Cuti') }}</p>
           </a>
         </li>
         <li class = " @if ($activePage == 'management_cuti') active @endif">
@@ -48,9 +55,10 @@
             <p>{{ __('Management Cuti') }}</p>
           </a>
         </li>
+
       <li class = "@if ($activePage == 'registrasi_pegawai') active @endif">
         <a href="{{ route('page.index','registrasi_pegawai') }}">
-          <i class="now-ui-icons location_map-big"></i>
+          <i class="now-ui-icons business_badge"></i>
           <p>{{ __('Registrasi Pegawai') }}</p>
         </a>
       </li>

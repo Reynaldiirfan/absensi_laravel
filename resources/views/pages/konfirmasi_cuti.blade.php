@@ -7,8 +7,8 @@
 @section('content')
   <div class="panel-header">
     <div class="header text-center">
-      <h2 class="title">Pengajuan Cuti</h2>
-      <p class="category">Halaman untuk melakukan pengajuan cuti</a>
+      <h2 class="title">Konfirmasi Cuti</h2>
+      <p class="category">Halaman untuk melakukan penerimaan atau penolakan <br> terhadap cuti yang diajukan oleh pegawai</a>
       </p>
     </div>
   </div>
@@ -17,7 +17,7 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title"> Form Pengajuan Cuti Pegawai</h4>
+            <h4 class="card-title"> Table Konfirmasi Cuti Pegawai</h4>
           </div>
           <div class="card-body">
             <div class="table-responsive">
