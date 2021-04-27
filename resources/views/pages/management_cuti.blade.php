@@ -61,7 +61,7 @@
                       {{ $x->alasan_cuti }}
                     </td>
                     <td class="text-right">
-                      {{ $x->status_cuti }}
+                      <b>{{ $x->status_cuti }}</b>
                     </td>
                     
                   </tr>

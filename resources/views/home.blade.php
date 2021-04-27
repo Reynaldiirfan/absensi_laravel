@@ -104,15 +104,15 @@
                     <td>
                       <div class="form-check">
                         <label class="form-check-label">
-                          <input class="form-check-input" type="checkbox" checked>
+                          <input class="form-check-input" type="checkbox">
                           <span class="form-check-sign"></span>
                         </label>
                       </div>
                     </td>
-                    <td class="text-left">Sign contract for "What are conference organizers afraid of?"</td>
+                    <td class="text-left" style="padding-top: 5px;padding-bottom:5px;">Reynaldi Irfan | Liburan Keluar Kota <br> Pending</td>
                     <td class="td-actions text-right">
                       <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
-                        <i class="now-ui-icons ui-2_settings-90"></i>
+                        <i class="now-ui-icons ui-1_check"></i>
                       </button>
                       <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                         <i class="now-ui-icons ui-1_simple-remove"></i>
@@ -128,10 +128,10 @@
                         </label>
                       </div>
                     </td>
-                    <td class="text-left">Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                    <td class="text-left" style="padding-top: 5px;padding-bottom:5px;">Cahyadi Haryanto | Cuti Overseas <br> Pending</td>
                     <td class="td-actions text-right">
                       <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
-                        <i class="now-ui-icons ui-2_settings-90"></i>
+                        <i class="now-ui-icons ui-1_check"></i>
                       </button>
                       <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                         <i class="now-ui-icons ui-1_simple-remove"></i>
@@ -147,11 +147,12 @@
                         </label>
                       </div>
                     </td>
-                    <td class="text-left">Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                    <td class="text-left" style="padding-top: 5px;padding-bottom:5px;">
+                      Intan Crystina | Cuti Melahirkan <br> Diterima
                     </td>
                     <td class="td-actions text-right">
                       <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
-                        <i class="now-ui-icons ui-2_settings-90"></i>
+                        <i class="now-ui-icons ui-1_check"></i>
                       </button>
                       <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Remove">
                         <i class="now-ui-icons ui-1_simple-remove"></i>

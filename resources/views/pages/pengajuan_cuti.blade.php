@@ -1,7 +1,7 @@
 @extends('layouts.app', [
-  'namePage' => 'Konfirmasi Cuti',
+  'namePage' => 'Pengajuan Cuti',
   'class' => 'sidebar-mini',
-  'activePage' => 'konfirmasi_cuti',
+  'activePage' => 'pengajuan_cuti',
 ])
 
 @section('content')
@@ -14,193 +14,79 @@
   </div>
   <div class="content">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8" style="margin-left: 200px">
         <div class="card">
           <div class="card-header">
-            <h4 class="card-title"> Form Pengajuan Cuti Pegawai</h4>
+            <h5 class="title">{{__(" Form Pengajuan Cuti")}}</h5>
           </div>
           <div class="card-body">
-            <div class="table-responsive">
-              <table class="table">
-                <thead class=" text-primary">
-                  <th>
-                    Nama Pegawai
-                  </th>
-                  <th>
-                    Sisa Cuti
-                  </th>
-                  <th>
-                    Alasan Cuti
-                  </th>
-                  <th>
-                    Tanggal Cuti
-                  </th>
-                  <th class="text-right">
-                    Konfirmasi Cuti
-                  </th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      Dakota Rice
-                    </td>
-                    <td>
-                      Niger
-                    </td>
-                    <td>
-                      Oud-Turnhout
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                      <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                        <option disabled selected>Status Pengajuan</option>
-                        <option value="2">Pending</option>
-                        <option value="3">Ditolak</option>
-                        <option value="4">Diterima</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Minerva Hooper
-                    </td>
-                    <td>
-                      Curaçao
-                    </td>
-                    <td>
-                      Sinaai-Waas
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                        <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                          <option disabled selected>Status Pengajuan</option>
-                          <option value="2">Pending</option>
-                          <option value="3">Ditolak</option>
-                          <option value="4">Diterima</option>
-                        </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Sage Rodriguez
-                    </td>
-                    <td>
-                      Netherlands
-                    </td>
-                    <td>
-                      Baileux
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                      <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                        <option disabled selected>Status Pengajuan</option>
-                        <option value="2">Pending</option>
-                        <option value="3">Ditolak</option>
-                        <option value="4">Diterima</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Philip Chaney
-                    </td>
-                    <td>
-                      Korea, South
-                    </td>
-                    <td>
-                      Overland Park
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                      <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                        <option disabled selected>Status Pengajuan</option>
-                        <option value="2">Pending</option>
-                        <option value="3">Ditolak</option>
-                        <option value="4">Diterima</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Doris Greene
-                    </td>
-                    <td>
-                      Malawi
-                    </td>
-                    <td>
-                      Feldkirchen in Kärnten
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                      <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                        <option disabled selected>Status Pengajuan</option>
-                        <option value="2">Pending</option>
-                        <option value="3">Ditolak</option>
-                        <option value="4">Diterima</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Mason Porter
-                    </td>
-                    <td>
-                      Chile
-                    </td>
-                    <td>
-                      Gloucester
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                      <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                        <option disabled selected>Status Pengajuan</option>
-                        <option value="2">Pending</option>
-                        <option value="3">Ditolak</option>
-                        <option value="4">Diterima</option>
-                      </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Jon Porter
-                    </td>
-                    <td>
-                      Portugal
-                    </td>
-                    <td>
-                      Gloucester
-                    </td>
-                    <td>
-                      12-04-2021
-                    </td>
-                    <td class="text-right">
-                      <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select">
-                        <option disabled selected>Status Pengajuan</option>
-                        <option value="2">Pending</option>
-                        <option value="3">Tolak</option>
-                        <option value="4">Terima</option>
-                      </select>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <button type="button" class="btn btn-primary" style="float: right;">Konfirmasi</button>
-            </div>
+            <form method="post" action="{{ route('profile.update') }}" autocomplete="off"
+            enctype="multipart/form-data">
+              @csrf
+              @method('put')
+              @include('alerts.success')
+              <div class="row">
+              </div>
+                <div class="row">
+                    <div class="col-md-11 pr-1">
+                        <div class="form-group">
+                            <label>{{__(" Name")}}</label>
+                                <input type="text" name="name" class="form-control" value="{{ old('name', auth()->user()->name) }}">
+                                @include('alerts.feedback', ['field' => 'name'])
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-11 pr-1">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">{{__(" Email address")}}</label>
+                      <input type="email" name="email" class="form-control" placeholder="Email" value="{{ old('email', auth()->user()->email) }}">
+                      @include('alerts.feedback', ['field' => 'email'])
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11 pr-1">
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">{{__(" Tanggal Cuti")}}</label>
+                        <input type="date" name="date" class="form-control">
+                        @include('alerts.feedback', ['field' => 'email'])
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11 pr-1">
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">{{__("Jenis Cuti")}}</label>
+                        <div class="col-lg-5 col-md-12 col-sm-3">
+                            <select class="selectpicker" data-style="btn btn-primary btn-round" title="Single Select" style="padding:8px;border-radius:12px;padding-right:12px;">
+                              <option disabled selected>Pilih Jenis Cuti</option>
+                              <option value="2">Cuti Pribadi</option>
+                              <option value="3">Cuti Bersama</option>
+                              <option value="4">Cuti Kesehatan</option>
+                            </select>
+                          </div>
+                        @include('alerts.feedback', ['field' => 'email'])
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11 pr-1">
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">{{__(" Alasan Cuti")}}</label>
+                        <input type="text" name="alasan" class="form-control" placeholder="Alasan">
+                        @include('alerts.feedback', ['field' => 'email'])
+                        </div>
+                    </div>
+                </div>
+                
+              <div class="card-footer ">
+                <button type="submit" class="btn btn-primary btn-round">{{__('Ajukan Cuti')}}</button>
+              </div>
+            </form>
           </div>
-        </div>
       </div>
+    </div>
     </div>
   </div>
 @endsection

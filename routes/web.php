@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/management_cuti','App\Http\Controllers\ManagementCutiController@index');
+Route::get('/pengajuan_cuti','App\Http\Controllers\PengajuanCutiController@index');
 
 Route::get('/', function () {
     return view('welcome');
