@@ -1,10 +1,10 @@
 <?php
 
+namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-    use Illuminate\Support\Facades\DB;
-    use App\Http\Requests;
-    use App\Http\Controllers\Controller;
- 
+use Illuminate\Support\Facades\DB;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
  
 class ManagementCutiController extends Controller
 {
@@ -16,6 +16,7 @@ class ManagementCutiController extends Controller
                 INNER JOIN cuti ON pengajuan.id_cuti = cuti.id_cuti
             '
         );
-        return view('/management_cuti',['pengajuan'=>$pengajuan]); 
+        
+        return view('management_cuti',['pengajuan'=>$pengajuan]); 
     }
 }

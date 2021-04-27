@@ -52,7 +52,7 @@
                     </td>
                     @endforeach
                   </tr>
-                  {{-- <tr>
+                  <tr>
                     <td>
                       Minerva Hooper
                     </td>
@@ -65,8 +65,8 @@
                     <td class="text-right">
                       $23,789
                     </td>
-                  </tr> --}}
-                  {{-- <tr>
+                  </tr> 
+                  <tr>
                     <td>
                       Sage Rodriguez
                     </td>
@@ -135,7 +135,7 @@
                     <td class="text-right">
                       $98,615
                     </td>
-                  </tr> --}}
+                  </tr> 
                 </tbody>
               </table>
             </div>
